@@ -21,7 +21,7 @@ conflicts:
     max_version: 3:0.45.1
 depends:
   - name: Shabby
-supports:
+suggests:
   - name: TexturesUnlimited
   min_version: 1.6.0.26
   - name: Parallax
