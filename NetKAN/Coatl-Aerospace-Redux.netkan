@@ -1,0 +1,21 @@
+identifier: Coatl-Aerospace-Redux
+author:
+  - Akron
+  - Padrone
+$kref: '#/ckan/spacedock/3893'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - science
+  - uncrewed
+depends:
+  - name: B9PartSwitch
+  - name: FirespitterCore
+  - name: DMagicScienceAnimate
+  - name: ModuleManager
+recommends:
+  - name: DMagicOrbitalScience
+  - name: SCANsat
+install:
+  - find: CoatlAerospace
+    install_to: GameData

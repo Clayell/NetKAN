@@ -1,5 +1,5 @@
 identifier: TourismOverhaul
-$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul'
+$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul/asset_match/^(?!.*Patch)'
 x_netkan_version_edit: ^Release(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
@@ -9,6 +9,7 @@ abstract: Completely revamps tourism contracts
 $kref: '#/ckan/spacedock/3788'
 x_netkan_version_edit: '^(?<version>[^ ]+).*$'
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
 resources:
   remote-avc: https://raw.githubusercontent.com/iLikeGothMommys/TourismOverhaul/refs/heads/main/ContractPack-TourismOverhaul.version
 tags:
@@ -17,6 +18,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
+recommends:
+  - name: Strategia
 install:
   - find: ContractPacks
     install_to: GameData

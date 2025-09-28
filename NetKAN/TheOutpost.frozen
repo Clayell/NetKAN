@@ -1,0 +1,11 @@
+identifier: TheOutpost
+$kref: '#/ckan/spacedock/2843'
+license: MIT
+tags:
+  - config
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: MakingHistory-DLC
+  - name: StockalikeStructures

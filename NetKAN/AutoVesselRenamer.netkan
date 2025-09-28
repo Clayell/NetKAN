@@ -1,0 +1,14 @@
+identifier: AutoVesselRenamer
+$kref: '#/ckan/github/matteo-passeri/KSP-1.12.5-MOD___Smart-Vessel-Renamer'
+$vref: '#/ckan/ksp-avc'
+---
+$kref: '#/ckan/spacedock/3857'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - editor
+depends:
+  - name: ModuleManager
+install:
+  - find: SmartVesselRenamer
+    install_to: GameData

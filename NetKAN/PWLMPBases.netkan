@@ -1,0 +1,14 @@
+identifier: PWLMPBases
+$kref: '#/ckan/github/PromisedWorlds/PWLMP_Bases'
+author: Promised Worlds Dev Team
+tags:
+  - config
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: ColonyBlocksandPlatforms
+  - name: StockalikeStructures
+install:
+  - find: PromisedWorldsBases
+    install_to: GameData

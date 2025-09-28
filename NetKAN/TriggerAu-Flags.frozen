@@ -1,0 +1,21 @@
+{
+    "identifier"     : "TriggerAu-Flags",
+    "name"           : "TriggerAu Flags",
+    "abstract"       : "Flags contained in TriggerAu's Addons",
+    "author"         : "TriggerAu",
+    "$kref"          : "#/ckan/github/TriggerAu/AlternateResourcePanel",
+    "license"        : "MIT",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
+    "resources": {
+        "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
+        "repository": "https://github.com/TriggerAu/AlternateResourcePanel"
+    },
+    "tags": [
+        "flags"
+    ],
+    "install": [ {
+        "find"       : "Flags",
+        "install_to" : "GameData/TriggerTech"
+    } ]
+}

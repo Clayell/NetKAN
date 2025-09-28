@@ -1,0 +1,18 @@
+{
+    "identifier":   "RetractableLiftingSurface",
+    "name":         "Retractable Lifting Surface Module",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/github/linuxgurugamer/RetractableLiftingSurface",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/145583-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "RetractableLiftingSurface",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,0 +1,23 @@
+identifier: KerbalColonies
+$kref: '#/ckan/github/KerbalColonies/KerbalColoniesCore'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalColonies
+author:
+  - AMPW
+  - Halengar
+$kref: '#/ckan/spacedock/3896'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+    min_version: v1.11.0.0
+  - name: CustomPreLaunchChecks
+  - name: ClickThroughBlocker
+  - name: KerbalColoniesConfig
+suggests:
+  - name: KerbalColoniesConfigExpansion

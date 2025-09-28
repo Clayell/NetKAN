@@ -1,0 +1,13 @@
+identifier: AsteroidCleaner
+author: KevO
+$kref: '#/ckan/github/kevnokeeffe/AsteroidCleaner'
+ksp_version: 1.12.5
+tags:
+  - plugin
+depends:
+  - name: Kopernicus
+suggests:
+  - name: AsteroidSpawnLimiter
+install:
+  - find: GameData/AsteroidCleaner
+    install_to: GameData

@@ -1,0 +1,17 @@
+identifier: KerbalPowersInterstellar
+$kref: '#/ckan/spacedock/3821'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: KerbalPowersCore
+suggests:
+  - name: Waterfall
+  - name: RecycledPartsAtomicAge
+  - name: VABorganizer
+install:
+  - find: KerbalPowers/Interstellar
+    install_to: GameData/KerbalPowers
+  - find: TURD
+    install_to: GameData

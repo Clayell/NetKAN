@@ -1,27 +1,18 @@
-{
-  "license": "GPL-3.0",
-  "identifier": "Notes2Log",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2586",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "SpaceTuxLibrary"
-    }
-  ],
-  "tags": [
-    "plugin"
-  ],
-  "install": [
-    {
-      "find": "Notes2Log",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: Notes2Log
+$kref: '#/ckan/github/linuxgurugamer/Notes2Log'
+$vref: '#/ckan/ksp-avc'
+---
+license: GPL-3.0
+identifier: Notes2Log
+x_via: Automated Linuxgurugamer CKAN script
+$kref: '#/ckan/spacedock/2586'
+$vref: '#/ckan/ksp-avc'
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+install:
+  - find: Notes2Log
+    install_to: GameData

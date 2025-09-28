@@ -1,18 +1,25 @@
-{
-    "identifier":   "MinorPlanetsExpansion",
-    "$kref":        "#/ckan/spacedock/2383",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "depends": [
-        { "name": "ModuleManager"   },
-        { "name": "Kopernicus"      },
-        { "name": "OuterPlanetsMod" }
-    ],
-    "install": [ {
-        "find":       "MPE",
-        "install_to": "GameData"
-    } ]
-}
+identifier: MinorPlanetsExpansion
+$kref: '#/ckan/github/ExosLab/Minor-Planets-Expansion'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/192848-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KSPCommunityFixes
+  - name: OuterPlanetsMod
+suggests:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: MPE
+    install_to: GameData
+  - find: Localizations
+    install_to: GameData
+    as: MPE
+  - find: Nereid
+    install_to: GameData

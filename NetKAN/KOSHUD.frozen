@@ -1,0 +1,15 @@
+identifier: KOSHUD
+$kref: '#/ckan/github/FuzzyMeepTWO/koshud'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - control
+depends:
+  - name: kOS
+  - name: kOSPropMonitor
+  - name: RasterPropMonitor
+recommends:
+  - name: kOSforAll
+install:
+  - find: Script
+    install_to: Ships

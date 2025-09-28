@@ -1,0 +1,13 @@
+identifier: KSPRankRibbons
+$kref: '#/ckan/spacedock/687'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: GameData/KSPRanks
+    install_to: GameData

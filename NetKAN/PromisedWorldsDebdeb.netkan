@@ -1,0 +1,15 @@
+identifier: PromisedWorldsDebdeb
+name: Promised Worlds Debdeb
+$kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Debdeb'
+$vref: '#/ckan/ksp-avc'
+author: Promised Worlds Dev Team
+license: CC-BY-NC-SA
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: PromisedWorldsCore
+install:
+  - find: PromisedWorlds
+    install_to: GameData

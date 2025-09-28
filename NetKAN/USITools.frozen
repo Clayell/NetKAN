@@ -1,0 +1,25 @@
+identifier: USITools
+name: USI Tools
+abstract: Common libraries for Umbra Space Industries mods
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/USITools'
+$vref: '#/ckan/ksp-avc/GameData/000_USITools/USITools.version'
+license: restricted
+resources:
+  manual: http://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - plugin
+  - library
+  - crewed
+  - graphics
+provides:
+  - USI-Tools
+conflicts:
+  - name: SETI-CommunityTechTree
+depends:
+  - name: ModuleManager
+install:
+  - file: GameData/000_USITools
+    install_to: GameData
+  - find: UmbraSpaceIndustries/FX
+    install_to: GameData/UmbraSpaceIndustries

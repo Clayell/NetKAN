@@ -1,0 +1,15 @@
+identifier: KerbalPowersCore
+$kref: '#/ckan/github/KerbalPowers/KP-Core'
+---
+identifier: KerbalPowersCore
+$kref: '#/ckan/spacedock/3943'
+tags:
+  - library
+  - agency
+suggests:
+  - name: KerbalPowersInterstellar
+  - name: KerbalPowersNaval
+  - name: KerbalPowersArmory
+install:
+  - find: KerbalPowers
+    install_to: GameData

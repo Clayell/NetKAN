@@ -1,4 +1,8 @@
 identifier: MANGO
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^MANGO-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MANGO
 name: My Antennae Never Go Offline
 abstract: rebalance the transmission of science data
 author:

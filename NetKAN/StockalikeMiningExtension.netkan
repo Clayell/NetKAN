@@ -1,0 +1,15 @@
+identifier: StockalikeMiningExtension
+$kref: '#/ckan/spacedock/354'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+recommends:
+  - name: PatchManager
+install:
+  - find: MiningExpansion
+    install_to: GameData
+    filter: Thumbs.db

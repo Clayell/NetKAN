@@ -1,12 +1,8 @@
 identifier: RationalResources
-$kref: '#/ckan/github/JadeOfMaar/RationalResources'
-$vref: '#/ckan/ksp-avc'
----
-identifier: RationalResources
 abstract: >-
   Makes resource placement no longer random but fit to composition templates.
   Promotes cryofuel mods and planet pack to life support compatibility.
-$kref: '#/ckan/spacedock/2201'
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
@@ -24,6 +20,7 @@ suggests:
   - name: JNSQ
   - name: RationalResourcesParts
   - name: StockalikeMiningExtension
+  - name: KerbalChangelog
 supports:
   - name: BeyondHome
   - name: CryoTanks
@@ -36,4 +33,3 @@ supports:
   - name: Pathfinder
   - name: StockalikeMiningExtension
   - name: TACLS
-  - name: KerbalChangelog

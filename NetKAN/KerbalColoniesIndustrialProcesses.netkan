@@ -1,0 +1,14 @@
+identifier: KerbalColoniesIndustrialProcesses
+$kref: '#/ckan/github/throw3278away/KerbalColoniesIndustrialProcesses'
+---
+identifier: KerbalColoniesIndustrialProcesses
+$kref: '#/ckan/spacedock/3951'
+tags:
+  - buildings
+  - config
+provides:
+  - KerbalColoniesConfigExpansion
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: KerbalColonies

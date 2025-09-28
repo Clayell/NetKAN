@@ -1,0 +1,13 @@
+identifier: USOfficerRanksStandardFinalFrontierAddOn
+$kref: '#/ckan/spacedock/650'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: USRankRibbons
+    install_to: GameData

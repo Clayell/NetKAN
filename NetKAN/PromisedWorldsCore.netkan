@@ -1,0 +1,34 @@
+identifier: PromisedWorldsCore
+name: Promised Worlds Core
+$kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Core'
+$vref: '#/ckan/ksp-avc'
+author: Promised Worlds Dev Team
+license: CC-BY-NC-SA
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Singularity
+  - name: Kopernicus
+  - name: ScaledDecorator
+  - name: ModuleManager
+  - name: KopernicusExpansion
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
+  - name: VertexHeightOblateAdvanced
+  - name: KSPCommunityFixes
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+suggests:
+  - name: PromisedWorldsDebdeb
+  - name: Firefly
+  - name: DistantObject
+  - name: PlanetShine
+install:
+  - find: PromisedWorlds
+    install_to: GameData
+  - find: Sigma
+    install_to: GameData
+    filter: ScaledDecorator

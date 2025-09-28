@@ -1,9 +1,16 @@
-{
-    "identifier"   : "B9PartSwitch",
-    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9PartSwitch/master/NetKAN/B9PartSwitch.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "library"
-    ]
-}
+identifier: B9PartSwitch
+name: B9 Part Switch
+author:
+  - blowfish
+  - linuxgurugamer
+$kref: '#/ckan/github/KSPModStewards/B9PartSwitch'
+x_netkan_force_v: true
+$vref: '#/ckan/ksp-avc'
+license: LGPL-3.0
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+provides:
+  - DeadskinsMeshSwitch

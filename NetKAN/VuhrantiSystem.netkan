@@ -1,0 +1,19 @@
+identifier: VuhrantiSystem
+$kref: '#/ckan/github/Oprissmian/VuhrantiSystem'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VuhrantiSystem
+$kref: '#/ckan/spacedock/3774'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KSPCommunityFixes
+  - name: OrbitIconsPack
+recommends:
+  - name: BetterTimeWarpCont
+  - name: HUDReplacer
